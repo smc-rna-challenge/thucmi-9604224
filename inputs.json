@@ -1,18 +1,21 @@
 {
-    "TUMOR_FASTQ_2": {
-        "path": "data/sim31_mergeSort_2.fq.gz", 
-        "class": "File"
-    }, 
-    "TUMOR_FASTQ_1": {
-        "path": "data/sim31_mergeSort_1.fq.gz", 
-        "class": "File"
+    "REFERENCE_GENOME": {
+        "class": "File", 
+        "path": "data/Homo_sapiens.GRCh37.75.dna_sm.primary_assembly.fa"
     }, 
     "REFERENCE_GTF": {
-        "path": "data/Homo_sapiens.GRCh37.75.gtf", 
-        "class": "File"
+        "class": "File", 
+        "path": "data/Homo_sapiens.GRCh37.75.gtf"
     }, 
-    "REFERENCE_GENOME": {
-        "path": "data/Homo_sapiens.GRCh37.75.dna_sm.primary_assembly.fa", 
-        "class": "File"
-    }
+    "TUMOR_FASTQ_1": {
+        "class": "File", 
+        "path": "data/sim31_mergeSort_1.fq.gz"
+    }, 
+    "TUMOR_FASTQ_2": {
+        "class": "File", 
+        "path": "data/sim31_mergeSort_2.fq.gz"
+    }, 
+    "gtf": "data/ensembl.hg19.txt", 
+    "input": "data/sim8_tophat_output_filtered_fusion.bedpe", 
+    "truth": "data/sim8_filtered.bedpe"
 }
